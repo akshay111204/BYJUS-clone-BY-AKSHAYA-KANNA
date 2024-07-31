@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+header {
+    background-color: #6a1b9a;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #b5b1b1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    background: url('byjus-background.jpg') no-repeat center center/cover;
+    color: #0c0c0c;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+#course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.course {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 250px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+#login-section {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#login-form label {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+#login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+#login-form button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #003d4c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #005e6b;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #6a1b9a; /* Purple background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-social .social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.footer-newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-newsletter input[type="email"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 10px;
+    outline: none;
+}
+
+.footer-newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff4081; /* Button color */
+    color: white;
+    cursor: pointer;
+}
+
+.footer-newsletter button:hover {
+    background-color: #e91e63; /* Darker shade on hover */
+}
+
+.footer .footer-section h2,
+.footer-newsletter h2 {
+    color: white;
+}
+
+.footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: left;
+    }
+
+    .footer-section,
+    .footer-social,
+    .footer-newsletter {
+        margin-bottom: 20px;
+    }
+
+    .footer-newsletter form {
+        flex-direction: column;
+    }
+
+    .footer-newsletter input[type="email"],
+    .footer-newsletter button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

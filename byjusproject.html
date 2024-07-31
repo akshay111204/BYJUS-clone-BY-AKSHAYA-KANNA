@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byju's Clone</title>
+    <link rel="stylesheet" href="bujusproject.css">
+</head>
+<body>
+    <header>
+        <h1>BYJU'S</h1>
+        <nav>
+            <a href="#" id="home-link">Home</a>
+            <a href="#" id="login-link">Login</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Home Section -->
+        <section id="home-section">
+            <div id="hero">
+                <h2>Welcome to BYJU'S LEARNING</h2>
+                <p>Learn and grow with our courses</p>
+            </div>
+            <section id="course-list">
+                <!-- Courses will be dynamically inserted here -->
+            </section>
+        </section>
+        
+        <!-- Login Section -->
+        <section id="login-section" style="display: none;">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <script src="bujysproject.js"></script>
+    <footer class="footer">
+        <div class="footer-section">
+            <h2>Shop Products</h2>
+            <!-- Add links or content as needed -->
+        </div>
+        <div class="footer-section">
+            <h2>Active Learning</h2>
+            <!-- Add links or content as needed -->
+        </div>
+        <div class="footer-section">
+            <h2>About Us</h2>
+            <!-- Add links or content as needed -->
+        </div>
+        <div class="footer-section">
+            <h2>Help Status</h2>
+            <!-- Add links or content as needed -->
+        </div>
+        <div class="footer-section">
+            <h2>BYJU's Partner Companies</h2>
+            <!-- Add links or content as needed -->
+        </div>
+        <div class="footer-social">
+            <h2>Get Social</h2>
+            <div class="social-icons">
+                <!-- Social media icons here -->
+            </div>
+        </div>
+        <div class="footer-newsletter">
+            <h2>Get Our Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Your email address" required />
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
